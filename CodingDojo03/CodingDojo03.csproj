@@ -68,6 +68,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\OnStockToColorBrushConverter.cs" />
+    <Compile Include="Model\SampleManager.cs" />
+    <Compile Include="Model\SoftwarePackage.cs" />
     <Compile Include="obj\Debug\App.g.cs" />
     <Compile Include="obj\Debug\App.g.i.cs" />
     <Compile Include="obj\Debug\MainWindow.g.cs" />
@@ -125,7 +128,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\Release\" />
-    <Folder Include="Model\" />
     <Folder Include="obj\Debug\TempPE\" />
     <Folder Include="ViewModel\" />
     <Folder Include="View\" />
